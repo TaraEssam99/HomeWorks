@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Poppins:wght@100;300;500&display=swap");
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.navBar {
+    display: flex;
+    border-bottom: solid 2px black;
+    background-color: rgb(251, 255, 228);
+    padding: 0px 50px;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.logo {
+    height: 70px;
+    padding-top: 5px;
+}
+
+.title .name {
+    margin: 20px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.navBar ul {
+    display: flex;
+    margin: 30px;
+    justify-content: right;
+    justify-items: center;
+    gap: 40px;
+}
+
+.links {
+    list-style: none;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'poppins';
+    transition: 0.6s;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    transition: 0.6s;
+}
+
+.navBar ul li a:hover {
+    border-radius: 6px;
+    font-style: oblique;
+    background-color: rgba(234, 255, 97, 0.8);
+}
+
+.links:hover{
+    transform: scale(1.2);
+}
+.bodyImage {
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(rice.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0px 60px;
+}
+
+.bodyImage p {
+    width: 40%;
+    position: absolute;
+    top: 38%;
+    transform: translateY(-70%);
+    text-align: left;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    opacity: calc(0.7);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.bodyImage h1 {
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    text-align: left;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons {
+    display: flex;
+    position: absolute;
+    top: 65%;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px;
+    border-radius: 20px;
+    gap: 40px;
+}
+
+.buttons a {
+    background: none;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.buttons a:hover {
+    background-color: rgba(228, 247, 104, 0.674);
+}
+
+.height{
+    height: 100vh;
+}
+
+.bottom{
+padding: auto 60px;
+height: 65vh;
+background-color: rgb(208, 255, 172);
+}
+
+.bottom h1{
+    padding: 50px 60px;
+    font-weight: bolder;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bottom p{
+    padding: 0px 60px;
+    justify-content: center;
+    font-size: 20px;
+    font-family: poppins;
+}
+.grid{
+    display: flex;
+    padding: 30px 60px;
+    height: 50vh;
+    gap: 30px;
+    justify-content: space-between;
+    text-align: center;
+}
+.gr1 , .gr2 , .gr3 {
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px black;
+    justify-items: center;
+    transition: 0.6s;
+}
+
+.gr1 img , .gr2 img , .gr3 img{
+    padding-top: 10px;
+    width:80px ;
+    height:80px ;
+}
+
+.gr1 h1 , .gr2 h1 , .gr3 h1 {
+    justify-content: center;
+    width: 420px;
+}
+.gr1 p , .gr2 p , .gr3 p {
+    font-family: Poppins ;
+    padding-top: 10px;
+    width: 420px;
+    font-size: 22px;
+}
+
+.gr1:hover , .gr2:hover , .gr3:hover{
+    transform: scale(1.1);
+}

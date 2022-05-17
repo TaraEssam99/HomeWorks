@@ -1,0 +1,38 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+width: 100%;
+color: aliceblue;
+background-color: cadetblue;
+
+
+}
+.container{
+    width: auto;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px 10px ;
+
+}
+nav {
+    display: flex;
+
+}
+nav ul {
+    /*display: flex;*/
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul li {
+
+    color: rgb(247, 149, 201);
+
+}
