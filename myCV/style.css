@@ -83,7 +83,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     height: 120vh;
     padding: 0px 70px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .line11, .line12, .line13 {
@@ -92,7 +92,7 @@
 
 .img11, .img12, .img13 {
     width: 55vh;
-    border-radius: 10px;
+    border-radius: 15px;
     padding-bottom: 25px;
 }
 
@@ -138,16 +138,16 @@
     grid-template-columns: 1fr 1fr 1fr;
     height: 120vh;
     padding: 0px 70px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .line21, .line22, .line23 {
     margin: 0px auto;
 }
 
-.img11, .img12, .img13 {
+.img21, .img22, .img23 {
     width: 55vh;
-    border-radius: 10px;
+    border-radius: 15px;
     padding-bottom: 25px;
 }
 
@@ -171,16 +171,16 @@
     grid-template-columns: 1fr 1fr 1fr;
     height: 120vh;
     padding: 0px 70px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .line31, .line32, .line33 {
     margin: 0px auto;
 }
 
-.img11, .img12, .img13 {
+.img31, .img32, .img33 {
     width: 55vh;
-    border-radius: 10px;
+    border-radius: 15px;
     padding-bottom: 25px;
 }
 
