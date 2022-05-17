@@ -63,11 +63,12 @@
 }
 
 .cvTamplete {
-    width: 400px;
-    transform: translateY(100%);
+    width: 350px;
+    transform: translateY(20%);
 }
 
 .cvTamplete a {
+    display: block;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -75,6 +76,12 @@
     text-decoration: none;
     color: white;
     background-color: rgb(123, 123, 123);
+    transition: 0.5s;
+}
+
+.cvTamplete a:hover{
+    transform: scale(1.2);
+    background-color: rgb(19, 19, 19);
 }
 
 /* box1 */
@@ -264,22 +271,27 @@
 
 .learnMore {
     width: 200px;
-    transform: translateY(30%);
-    background-color: rgb(123, 123, 123);
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-
+    transform: translateY(60%);
+    
 }
 
 .learnMore a {
+    display: block;
+    padding: 20px 40px;
     text-decoration: none;
-    padding: 20px;
-    color: white;
     font-size: larger;
+    text-align: center;
     border-radius: 10px;
+    color: white;
     background-color: rgb(123, 123, 123);
+    transition: 0.5s;
 }
+
+.learnMore a:hover{
+    transform: scale(1.2);
+    background-color: rgb(19, 19, 19);
+}
+
 
 /* footer */
 .footer {
